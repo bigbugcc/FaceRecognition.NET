@@ -10,7 +10,25 @@
   <ItemGroup>
     <PackageReference Include="MaterialDesignThemes" Version="4.5.0" />
     <PackageReference Include="MaterialDesignThemes.MahApps" Version="0.2.2" />
+    <PackageReference Include="Microsoft.Data.Sqlite.Core" Version="6.0.5" />
+    <PackageReference Include="OpenCvSharp4.Extensions" Version="4.5.5.20211231" />
     <PackageReference Include="OpenCvSharp4.WpfExtensions" Version="4.5.5.20211231" />
+    <PackageReference Include="SciSharp.TensorFlow.Redist-Windows-GPU" Version="2.7.0" />
+    <PackageReference Include="SqlSugar" Version="5.0.8.1" />
+    <PackageReference Include="System.Drawing.Common" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Res\weights\haarcascade_frontalface_alt.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Res\weights\haarcascade_frontalface_default.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Util\" />
   </ItemGroup>
 
 </Project>
